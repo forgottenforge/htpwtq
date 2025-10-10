@@ -20,17 +20,13 @@ This repository contains all scripts, configs, and example artifacts to reproduc
 
 ## Repository Structure
 
-- [`vermicular.py`] — VERMICULAR core (2‑qubit Grover with DD at pre‑oracle and post‑diffusion)
-- `live_circuit_[o.py]` — Systematic strategy scanner (brute force over strategies × depth)
-- `auto_[opti2.py]` — Auto-Optimizer v2.0 (BalancedQuantumOptimizer: multi-objective with functionality validation)
-- [`qsp.py`] — Quantum Solver Pro (early alpha; comprehensive toolbox). Cite with tag + commit.
-- `iqm_corrected_[execution.py]` — IQM specifics (index mapping, adapter)
-- `process_iqm_[complete.py]` — Analysis and simplified tomography pipelines
-- `db_[vs.py]` — VERMICULAR vs. Standard Grover mini-benchmark
-- `data/` — Place for raw measurements and JSON results
-- `results/` — Plots and tabular outputs
-- `manifests/` — Run manifests (seeds, transpiler reports, job IDs)
-- `env/` — Example environment files (`requirements.txt`, optional `conda.yml`)
+- `vermicular.py` — VERMICULAR core (2‑qubit Grover with DD at pre‑oracle and post‑diffusion)
+- `live_circuit_o.py` — Systematic strategy scanner (brute force over strategies × depth)
+- `auto_opti2.py` — Auto-Optimizer v2.0 (BalancedQuantumOptimizer: multi-objective with functionality validation)
+- `qsp.py` — Quantum Solver Pro (early alpha; comprehensive toolbox). Cite with tag + commit.
+- `iqm_corrected_execution.py` — IQM specifics (index mapping, adapter)
+- `process_iqm_complete.py` — Analysis and simplified tomography pipelines
+- `db_vs.py` — VERMICULAR vs. Standard Grover mini-benchmark
 
 ## Requirements
 
