@@ -62,14 +62,14 @@ Notes:
 Local simulation (smoke tests):
 
 ```bash
-python [vermicular.py] --demo
-python db_[vs.py](http://vs.py) --sim-only
+python vermicular.py --demo
+python db_vs.py --sim-only
 ```
 
 Strategy scanning (simulated):
 
 ```bash
-python live_circuit_[o.py] \
+python live_circuit_o.py \
   --algo grover \
   --depths 1 2 4 \
   --strategies baseline dd_xx dd_xy4 dd_cpmg gate_compression virtual_z echo_spin \
@@ -79,7 +79,7 @@ python live_circuit_[o.py] \
 Auto-Optimizer v2.0 (balanced):
 
 ```bash
-python auto_[opti2.py] \
+python auto_opti2.py \
   --algo grover \
   --perf-weight 0.5 \
   --res-weight 0.5 \
@@ -91,8 +91,8 @@ python auto_[opti2.py] \
 QPU execution (simplified, example):
 
 ```bash
-python [vermicular.py] --backend iqm --shots 256 --save-manifest manifests/run_iqm_YYYYMMDD.json
-python [vermicular.py] --backend rigetti --shots 256 --save-manifest manifests/run_rigetti_YYYYMMDD.json
+python vermicular.py --backend iqm --shots 256 --save-manifest manifests/run_iqm_YYYYMMDD.json
+python vermicular.py --backend rigetti --shots 256 --save-manifest manifests/run_rigetti_YYYYMMDD.json
 ```
 
 Backends are resolved via AWS Braket device IDs under the hood. Configure your AWS profile and region accordingly.
@@ -103,31 +103,31 @@ Backends are resolved via AWS Braket device IDs under the hood. Configure your A
 
 Standard vs. VERMICULAR vs. random/uniform DD
 
-Scripts: `db_[vs.py]`, [`vermicular.py`]
+Scripts: `db_vs.py`, `vermicular.py`
 
 ```bash
-python db_[vs.py] --backend iqm --shots 256 --out results/iqm_grover_2q.json
-python db_[vs.py] --backend rigetti --shots 256 --out results/rigetti_grover_2q.json
+python db_vs.py --backend iqm --shots 256 --out results/iqm_grover_2q.json
+python db_vs.py --backend rigetti --shots 256 --out results/rigetti_grover_2q.json
 ```
 
 Expected: ~5× improvement over baseline (see paper tables for reference values).
 
 2) Multi‑stage search
 
-Script: [`vermicular.py`] (multi‑stage mode) or a dedicated `multi_stage_*.py` script
+Script: `vermicular.py` (multi‑stage mode) or a dedicated `multi_stage_*.py` script
 
 ```bash
-python [vermicular.py] --backend iqm --multistage 3 --shots 256 --out results/iqm_multistage.json
+python vermicular.py --backend iqm --multistage 3 --shots 256 --out results/iqm_multistage.json
 ```
 
 3) Empirical σ_c measurement
 
-Scripts: `auto_[opti2.py]` (uses `measure_sigma_c_accurate`), `process_iqm_[complete.py]`
+Scripts: `auto_opti2.py` (uses `measure_sigma_c_accurate`), `process_iqm_complete.py`
 
 Pipeline: discrete noise levels → measurement → information functional I(ε) → gradient → argmax
 
 ```bash
-python auto_[opti2.py](http://opti2.py) --sigma-only \
+python auto_opti2.py --sigma-only \
   --noise-grid 0,0.05,0.10,0.15,0.20,0.25,0.30 \
   --shots 256 \
   --out results/sigma_product.json
@@ -135,13 +135,13 @@ python auto_[opti2.py](http://opti2.py) --sigma-only \
 
 4) Ablation studies (pre‑oracle only, post‑diffusion only, both, double)
 
-Scripts: `db_[vs.py]`, [`vermicular.py`]
+Scripts: `db_vs.py`, `vermicular.py`
 
 ```bash
-python db_[vs.py](http://vs.py) --backend iqm --dd pre   --shots 256
-python db_[vs.py](http://vs.py) --backend iqm --dd post  --shots 256
-python db_[vs.py](http://vs.py) --backend iqm --dd both  --shots 256
-python db_[vs.py](http://vs.py) --backend iqm --dd both --double --shots 256
+python db_vs.py --backend iqm --dd pre   --shots 256
+python db_vs.py --backend iqm --dd post  --shots 256
+python db_vs.py --backend iqm --dd both  --shots 256
+python db_vs.py --backend iqm --dd both --double --shots 256
 ```
 
 ## Seeds, Transpiler Settings, Barriers
@@ -151,7 +151,7 @@ python db_[vs.py](http://vs.py) --backend iqm --dd both --double --shots 256
     - Orchestration seed: `4242`
 
 ```bash
-python db_[vs.py] --backend iqm --shots 256 --seed-sim 12345 --seed-orch 4242
+python db_vs.py --backend iqm --shots 256 --seed-sim 12345 --seed-orch 4242
 ```
 
 - Compiler/transpiler:
@@ -173,7 +173,7 @@ python db_[vs.py] --backend iqm --shots 256 --seed-sim 12345 --seed-orch 4242
 ## Platform Notes
 
 - IQM
-    - 1‑based indexing (adapter in `iqm_corrected_[execution.py]`)
+    - 1‑based indexing (adapter in `iqm_corrected_execution.py`)
 - Rigetti
     - Higher crosstalk in our tests → stronger DD advised
 - Local simulator
@@ -223,8 +223,6 @@ python db_[vs.py] --backend iqm --shots 256 --seed-sim 12345 --seed-orch 4242
 ## License
 
 Copyright (c) 2025 ForgottenForge.xyz
-
-with structure preservation and functionality validation!
 
 Dual Licensed under (see LICENSE):
 - Creative Commons Attribution 4.0 International (CC BY 4.0)
