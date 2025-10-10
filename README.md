@@ -181,27 +181,27 @@ python db_[vs.py] --backend iqm --shots 256 --seed-sim 12345 --seed-orch 4242
 
 ## Key Scripts (Short Guide)
 
-- [`vermicular.py`](http://vermicular.py)
+- `vermicular.py`
     
     Generates VERMICULAR circuits, places DD at pre‑oracle and post‑diffusion, protects DD with barriers.
     
-- `live_circuit_[o.py]`
+- `live_circuit_o.py`
     
     Scans strategies across several depths and collects success rates.
     
-- `auto_[opti2.py](http://opti2.py)`
+- `auto_opti2.py`
     
     BalancedQuantumOptimizer: preserves functionality (`is_functional` checks), measures σ_c over a noise grid, optimizes a composite score (performance, σ_c, efficiency).
     
-- [`qsp.py`] (alpha)
+- `qsp.py` (alpha)
     
     Quantum Solver Pro: extended toolbox (DD variants, echo, HEB, brute force strategy sets). Early alpha!
     
-- `process_iqm_[complete.py]`
+- `process_iqm_complete.py`
     
     Analysis utilities and simplified tomography (basis-level extraction).
     
-- `db_[vs.py]
+- `db_vs.py
     
     Standard Grover vs. VERMICULAR (simulator/QPU), JSON exports for tables/plots.
     
