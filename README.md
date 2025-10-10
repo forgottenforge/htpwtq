@@ -17,7 +17,7 @@ This repository contains all scripts, configs, and example artifacts to reproduc
 - Platform adaptations (IQM, Rigetti via AWS Braket)
 - Analysis scripts and example JSON results
 - Run manifests, seeds, and recommended transpiler settings
-- Sigma C Rust Live Demo: https://play.rust-lang.org/?version=stable&mode=debug&edition=2024&gist=d8c088f6eaeb5c421674154e3ea40653
+- [Sigma C Rust Live Demo](https://play.rust-lang.org/?version=stable&mode=debug&edition=2024&gist=d8c088f6eaeb5c421674154e3ea40653)
 
 ## Repository Structure
 
