@@ -28,6 +28,7 @@ This repository contains all scripts, configs, and example artifacts to reproduc
 - `iqm_corrected_execution.py` — IQM specifics (index mapping, adapter)
 - `process_iqm_complete.py` — Analysis and simplified tomography pipelines
 - `db_vs.py` — VERMICULAR vs. Standard Grover mini-benchmark
+- `sigmacsuite.py` — Understand and validate our criticality detection
 
 ## Requirements
 
