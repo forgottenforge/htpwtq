@@ -2,19 +2,24 @@
 """
 VERMICULAR-ALGORITHM: A useful Quantum Algorithm
 ==========================================================
-
-=============================================
 Copyright (c) 2025 ForgottenForge.xyz
 
 The complete, production-ready implementation of the modified
 Grover's algorithm with Dynamical Decoupling that achieves
 93% success rate on IQM Garnet quantum hardware.
 
-Dual Licensed under:
-- Creative Commons Attribution 4.0 International (CC BY 4.0)
-- Elastic License 2.0 (ELv2)
+Copyright (c) 2025 ForgottenForge.xyz
 
-Commercial licensing available. Contact: nfo@forgottenforge.xyz
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+For commercial licensing without AGPL-3.0 obligations, contact:
+[nfo@forgottenforge.xyz]
+
+SPDX-License-Identifier: AGPL-3.0-or-later OR Commercial
+
 """
 
 import numpy as np
@@ -422,4 +427,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
