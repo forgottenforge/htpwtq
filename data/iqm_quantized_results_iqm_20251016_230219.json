@@ -1,0 +1,41 @@
+{
+  "platform": "iqm",
+  "timestamp": "2025-10-16T23:02:19.763065",
+  "parameter_sets": {
+    "sweet_spot": {
+      "gamma": 0.217,
+      "beta": 1.284,
+      "description": "Found via optimization (tested: 92.6% on IQM)"
+    },
+    "iqm_quantized": {
+      "gamma": 0.25,
+      "beta": 1.25,
+      "description": "Hardware-friendly quantized (99.2% simulator, untested on IQM)"
+    },
+    "theoretical": {
+      "gamma": 0.7853981633974483,
+      "beta": 0.39269908169872414,
+      "description": "Theoretical optimum (tested: 39.6% on IQM)"
+    }
+  },
+  "results": {
+    "sweet_spot": {
+      "mean": 0.9453125,
+      "std": 0.01149968862803105,
+      "performances": [
+        0.94921875,
+        0.95703125,
+        0.9296875
+      ]
+    },
+    "iqm_quantized": {
+      "mean": 0.94140625,
+      "std": 0.01275775907699572,
+      "performances": [
+        0.95703125,
+        0.92578125,
+        0.94140625
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "grover": {
+    "sigma_c": 0.06850962178407621,
+    "ci_lower": 0.05756042989307532,
+    "ci_upper": 0.07840615469058318,
+    "is_valid": true,
+    "failure_reason": null,
+    "validation": {
+      "has_clear_transition": false,
+      "gradient_peak_exists": true,
+      "sufficient_dynamic_range": true,
+      "monotonic_decay": true,
+      "above_noise_floor": true
+    },
+    "method": "Combined (median)"
+  },
+  "bell": {
+    "sigma_c": 0.3,
+    "ci_lower": 0.15517241379310345,
+    "ci_upper": 0.3,
+    "is_valid": true,
+    "failure_reason": null,
+    "validation": {
+      "has_clear_transition": true,
+      "gradient_peak_exists": true,
+      "sufficient_dynamic_range": true,
+      "monotonic_decay": true,
+      "above_noise_floor": true
+    },
+    "method": "Combined (median)"
+  },
+  "random": {
+    "sigma_c": 0.3,
+    "ci_lower": 0.3,
+    "ci_upper": 0.3,
+    "is_valid": true,
+    "failure_reason": null,
+    "validation": {
+      "has_clear_transition": true,
+      "gradient_peak_exists": true,
+      "sufficient_dynamic_range": false,
+      "monotonic_decay": false,
+      "above_noise_floor": true
+    },
+    "method": "Combined (median)"
+  },
+  "shallow": {
+    "sigma_c": 0.3,
+    "ci_lower": 0.15517241379310345,
+    "ci_upper": 0.3,
+    "is_valid": false,
+    "failure_reason": "No clear observable structure to protect",
+    "validation": {
+      "has_clear_transition": false,
+      "gradient_peak_exists": false,
+      "sufficient_dynamic_range": false,
+      "monotonic_decay": false,
+      "above_noise_floor": true
+    },
+    "method": "Combined (median)"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "bell": {
+    "depolarizing": {
+      "sigma_c": 0.1736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "amplitude_damping": {
+      "sigma_c": 0.04736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "phase_damping": {
+      "sigma_c": 0.04736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "correlated_2q": {
+      "sigma_c": 0.12631578947368421,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "full": {
+      "sigma_c": 0.04736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    }
+  },
+  "product": {
+    "depolarizing": {
+      "sigma_c": 0.14210526315789473,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "amplitude_damping": {
+      "sigma_c": 0.04736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "phase_damping": {
+      "sigma_c": 0.04736842105263158,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "correlated_2q": {
+      "sigma_c": 0.18947368421052632,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "full": {
+      "sigma_c": 0.1105263157894737,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-10-19T19:29:41.564609",
+    "runtime_minutes": 0.04397501666666667
+  }
+}

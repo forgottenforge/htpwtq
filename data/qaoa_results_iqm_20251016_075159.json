@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-10-16T07:51:59.848062",
+  "platform": "iqm",
+  "graph_info": {
+    "nodes": 4,
+    "edges": 6,
+    "max_cut": 4
+  },
+  "results": {
+    "standard": {
+      "sigma_c": 0.3,
+      "gamma": 1.9114791035014698,
+      "beta": 0.31564114143900807,
+      "performance": 0.890625,
+      "cut_value": 3.5625
+    },
+    "optimized": {
+      "sigma_c": 0.3,
+      "gamma": 1.8702806203744953,
+      "beta": 0.2703592620047395,
+      "performance": 0.904296875,
+      "cut_value": 3.6171875
+    },
+    "sigma_c_analysis": {}
+  }
+}

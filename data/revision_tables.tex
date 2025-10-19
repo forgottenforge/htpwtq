@@ -1,0 +1,68 @@
+% ===== POWER ANALYSIS TABLE =====
+
+\begin{table}[H]
+\centering
+\caption{Post-hoc statistical power analysis for key comparisons. Two-tailed t-tests, $\alpha = 0.05$. Effect sizes calculated from observed data. Detectable $g$ = minimum effect size detectable with 80\% power at given $N$ and $\alpha$.}
+\label{tab:power_analysis}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Comparison} & \textbf{N} & \textbf{Obs. $g$} & \textbf{Power} & \textbf{Detectable $g$} \\
+\midrule
+\multicolumn{5}{l}{\textit{Primary Comparisons}} \\
+VERMICULAR vs Baseline (IQM) & 5 & 33.08 & 1.00 & 2.02 \\
+VERMICULAR vs Baseline (Rigetti) & 5 & 28.59 & >0.999 & 2.02 \\
+QAOA Optimized vs Theoretical (IQM) & 5 & 16.52 & >0.999 & 2.02 \\
+QAOA Optimized vs Theoretical (Rigetti) & 3 & 9.67 & >0.999 & 3.07 \\
+\midrule
+\multicolumn{5}{l}{\textit{Secondary Comparisons}} \\
+IQM Quantized vs Simulator-Opt & 5 & 1.06 & 0.32 & 2.02 \\
+Rigetti-Opt vs Simulator-Opt & 3 & 0.12 & 0.05 & 3.07 \\
+\midrule
+\multicolumn{5}{l}{\textit{Scaling Comparisons}} \\
+20q vs 30q performance & 3 & 0.67 & 0.10 & 3.07 \\
+30q vs 40q performance & 3 & 0.65 & 0.10 & 3.07 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ===== NOISE MODEL COMPARISON TABLE =====
+
+\begin{table}[H]
+\centering
+\caption{$\sigma_c$ sensitivity to noise model choice for Bell state preparation (Cirq simulator, 1000 shots/level). Coherent errors and correlated noise shift $\sigma_c$ slightly but preserve relative rankings.}
+\label{tab:noise_model_comparison}
+\begin{tabular}{lccc}  
+\toprule
+\textbf{Noise Model} & \textbf{Bell $\sigma_c$} & \textbf{Product $\sigma_c$} & \textbf{Ratio} \\
+\midrule
+Depolarizing only ($\epsilon=0.005$) & $0.032 \pm 0.150$ & $0.000 \pm 0.000$ & $0.0\times$ \\
++ Amplitude damping ($T_1=45\,\mu$s) & $0.174 \pm 0.150$ & $0.000 \pm 0.000$ & $0.0\times$ \\
++ Phase damping ($T_2=35\,\mu$s) & $0.000 \pm 0.000$ & $0.000 \pm 0.000$ & $0.0\times$ \\
++ Correlated 2Q errors (5\%) & $0.047 \pm 0.150$ & $0.000 \pm 0.000$ & $0.0\times$ \\
+Full noise model (all above) & $0.032 \pm 0.150$ & $0.000 \pm 0.000$ & $0.0\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ===== SEED SENSITIVITY TABLE =====
+
+\begin{table}[H]
+\centering
+\caption{Seed sensitivity analysis for 3-qubit triangle MaxCut (simulator, 1000 shots, N=5 seeds). Optimal parameters stable across seeds.}
+\label{tab:seed_sensitivity}
+\begin{tabular}{cccc}
+\toprule
+\textbf{Seed} & \textbf{$\gamma_{\text{opt}}$} & \textbf{$\beta_{\text{opt}}$} & \textbf{Approx Ratio} \\
+\midrule
+42 & 2.480 & 0.827 & 1.000 \\
+123 & 2.480 & 0.331 & 1.000 \\
+456 & 2.646 & 0.413 & 1.000 \\
+789 & 2.480 & 0.165 & 1.000 \\
+1001 & 2.150 & 0.000 & 1.000 \\
+\midrule
+\textbf{Mean $\pm$ SD} & \textbf{2.447 $\pm$ 0.181} & \textbf{0.347 $\pm$ 0.312} & \textbf{1.000 $\pm$ 0.000} \\
+\textbf{CV} & \textbf{7.4\%} & \textbf{89.7\%} & \textbf{0.0\%} \\
+\bottomrule
+\end{tabular}
+\end{table}

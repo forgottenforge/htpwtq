@@ -1,0 +1,113 @@
+{
+  "corrected_results": {
+    "fixed_params": {
+      "3": {
+        "approx_ratio": 1.185,
+        "max_cut": 2,
+        "edges": 3,
+        "avg_cuts": 2.37
+      },
+      "5": {
+        "approx_ratio": 0.8999999999999999,
+        "max_cut": 4,
+        "edges": 5,
+        "avg_cuts": 3.5999999999999996
+      },
+      "7": {
+        "approx_ratio": 0.7501666666666668,
+        "max_cut": 6,
+        "edges": 7,
+        "avg_cuts": 4.501
+      },
+      "10": {
+        "approx_ratio": 0.6796153846153845,
+        "max_cut": 13,
+        "edges": 15,
+        "avg_cuts": 8.834999999999999
+      },
+      "12": {
+        "approx_ratio": 0.6423749999999999,
+        "max_cut": 16,
+        "edges": 18,
+        "avg_cuts": 10.277999999999999
+      },
+      "15": {
+        "approx_ratio": 0.6946153846153845,
+        "max_cut": 13,
+        "edges": 15,
+        "avg_cuts": 9.03
+      },
+      "20": {
+        "approx_ratio": 0.6461538461538462,
+        "max_cut": 26,
+        "edges": 30,
+        "avg_cuts": 16.8
+      },
+      "25": {
+        "approx_ratio": 0.6630952380952382,
+        "max_cut": 21,
+        "edges": 25,
+        "avg_cuts": 13.925
+      },
+      "30": {
+        "approx_ratio": 0.6196153846153847,
+        "max_cut": 39,
+        "edges": 45,
+        "avg_cuts": 24.165000000000003
+      },
+      "35": {
+        "approx_ratio": 0.6486666666666667,
+        "max_cut": 30,
+        "edges": 35,
+        "avg_cuts": 19.46
+      },
+      "40": {
+        "approx_ratio": 0.6542307692307692,
+        "max_cut": 52,
+        "edges": 60,
+        "avg_cuts": 34.019999999999996
+      }
+    },
+    "optimized_params": {
+      "10": {
+        "approx_ratio": 0.6363461538461538,
+        "max_cut": 13,
+        "edges": 15,
+        "avg_cuts": 8.272499999999999
+      },
+      "20": {
+        "approx_ratio": 0.5705769230769231,
+        "max_cut": 26,
+        "edges": 30,
+        "avg_cuts": 14.834999999999999
+      },
+      "30": {
+        "approx_ratio": 0.5728846153846154,
+        "max_cut": 39,
+        "edges": 45,
+        "avg_cuts": 22.3425
+      },
+      "40": {
+        "approx_ratio": 0.5573076923076923,
+        "max_cut": 52,
+        "edges": 60,
+        "avg_cuts": 28.98
+      }
+    }
+  },
+  "parameter_scaling": {
+    "gamma_fit": "[13.03703702  0.24361729]",
+    "gamma_formula": "\u03b3(n) = 13.04/n + 0.24",
+    "gamma_r2": 0.8962962962962964,
+    "beta_fit": "[0.03389831 1.63415254]",
+    "beta_formula": "\u03b2(n) = 0.034n + 1.63",
+    "beta_r2": 0.963020030816641
+  },
+  "key_findings": {
+    "performance_20q": 0.5705769230769231,
+    "performance_30q": 0.5728846153846154,
+    "performance_40q": 0.5573076923076923,
+    "total_cost_eur": 45.16,
+    "conclusion": "Scale-dependent parameter optimization maintains 57% performance at 40 qubits"
+  }
+}

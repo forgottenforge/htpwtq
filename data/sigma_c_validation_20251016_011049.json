@@ -1,0 +1,13 @@
+{
+  "grover": {
+    "validation": {
+      "has_clear_transition": true,
+      "gradient_peak_exists": true,
+      "sufficient_dynamic_range": true,
+      "monotonic_decay": false,
+      "above_noise_floor": true
+    },
+    "sigma_c": 0.07429267433815254,
+    "ci_lower": 0.05860548592257859,
+    "ci_upper": 0.08189626784771939,
+    "is_valid": 

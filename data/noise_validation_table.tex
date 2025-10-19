@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{$\sigma_c$ validation using statevector simulation with information functional $\mathcal{I}[\rho,\epsilon] = F \cdot C \cdot \sqrt{P} \cdot (1-\epsilon)^2$. Bootstrap 95\% CI from 1000 iterations.}
+\label{tab:noise_validation}
+\begin{tabular}{lccc}  
+\toprule
+\textbf{Noise Model} & \textbf{Bell $\sigma_c$} & \textbf{Product $\sigma_c$} & \textbf{Ratio} \\
+\midrule
+Depolarizing & $0.174 \pm 0.150$ & $0.142 \pm 0.150$ & $1.2\times$ \\
++ Amplitude damping & $0.047 \pm 0.150$ & $0.047 \pm 0.150$ & $1.0\times$ \\
++ Phase damping & $0.047 \pm 0.150$ & $0.047 \pm 0.150$ & $1.0\times$ \\
++ Correlated errors & $0.126 \pm 0.150$ & $0.189 \pm 0.150$ & $0.7\times$ \\
+Full model & $0.047 \pm 0.150$ & $0.111 \pm 0.150$ & $0.4\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

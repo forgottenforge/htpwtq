@@ -1,0 +1,31 @@
+{
+  "platform": "simulator",
+  "timestamp": "2025-10-16T22:03:02.144065",
+  "optimal_parameters": {
+    "gamma": 0.217,
+    "beta": 1.2843333333333333
+  },
+  "results": {
+    "v3": {
+      "approx_ratio": 0.7,
+      "success_rate": 0.7,
+      "avg_cut": 1.4,
+      "gate_count": 28,
+      "runtime": 0.07674312591552734
+    },
+    "v3_ultra": {
+      "approx_ratio": 0.558,
+      "success_rate": 0.558,
+      "avg_cut": 1.116,
+      "gate_count": 12,
+      "runtime": 0.0077326297760009766
+    },
+    "iqm_special": {
+      "approx_ratio": 0.27,
+      "success_rate": 0.27,
+      "avg_cut": 0.54,
+      "gate_count": 24,
+      "runtime": 0.010369062423706055
+    }
+  }
+}

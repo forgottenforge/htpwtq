@@ -1,0 +1,121 @@
+{
+  "power_analysis": [
+    {
+      "Comparison": "VERM vs Base (IQM)",
+      "Category": "Primary",
+      "N": 5,
+      "g": 21.947950224242376,
+      "Power": 1.0
+    },
+    {
+      "Comparison": "VERM vs Base (Rigetti)",
+      "Category": "Primary",
+      "N": 5,
+      "g": 18.352186882280737,
+      "Power": 1.0
+    },
+    {
+      "Comparison": "QAOA Opt vs Theory (IQM)",
+      "Category": "Primary",
+      "N": 5,
+      "g": 10.770821285317487,
+      "Power": 1.0
+    },
+    {
+      "Comparison": "QAOA Opt vs Theory (Rig)",
+      "Category": "Primary",
+      "N": 3,
+      "g": 6.4442177734728,
+      "Power": 0.9998412376910004
+    },
+    {
+      "Comparison": "IQM Quant vs Sim",
+      "Category": "Secondary",
+      "N": 5,
+      "g": 0.658878254779815,
+      "Power": 0.15140350156386675
+    },
+    {
+      "Comparison": "Rig-Opt vs Sim",
+      "Category": "Secondary",
+      "N": 3,
+      "g": 0.08329267300725664,
+      "Power": 0.05073929526309876
+    },
+    {
+      "Comparison": "20q vs 30q",
+      "Category": "Scaling",
+      "N": 3,
+      "g": 0.41170091818777066,
+      "Power": 0.06816046135672364
+    },
+    {
+      "Comparison": "30q vs 40q",
+      "Category": "Scaling",
+      "N": 3,
+      "g": 0.41170091818777066,
+      "Power": 0.06816046135672364
+    }
+  ],
+  "noise_validation": {
+    "bell": {
+      "sigma_c": 0.06315789473684211,
+      "ci_lower": 0.0,
+      "ci_upper": 0.3
+    },
+    "product": {
+      "sigma_c": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0
+    }
+  },
+  "seed_sensitivity": {
+    "data": [
+      {
+        "seed": 42,
+        "gamma": 0.3490658503988659,
+        "beta": 1.2217304763960306,
+        "ratio": 0.992
+      },
+      {
+        "seed": 123,
+        "gamma": 0.3490658503988659,
+        "beta": 1.2217304763960306,
+        "ratio": 0.98
+      },
+      {
+        "seed": 456,
+        "gamma": 0.3490658503988659,
+        "beta": 1.2217304763960306,
+        "ratio": 0.986
+      },
+      {
+        "seed": 789,
+        "gamma": 0.3490658503988659,
+        "beta": 1.2217304763960306,
+        "ratio": 0.98
+      },
+      {
+        "seed": 1001,
+        "gamma": 0.3490658503988659,
+        "beta": 1.2217304763960306,
+        "ratio": 0.992
+      }
+    ],
+    "statistics": {
+      "gamma_mean": 0.3490658503988659,
+      "gamma_std": 0.0,
+      "gamma_cv": 0.0,
+      "beta_mean": 1.2217304763960306,
+      "beta_std": 0.0,
+      "beta_cv": 0.0,
+      "ratio_mean": 0.986,
+      "ratio_std": 0.006000000000000005,
+      "ratio_cv": 0.6085192697768768
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-10-19T17:28:25.222823",
+    "runtime_minutes": 0.8054303833333333
+  }
+}

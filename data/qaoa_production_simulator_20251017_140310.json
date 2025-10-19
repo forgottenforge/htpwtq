@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "platform": "simulator",
+    "timestamp": "2025-10-17T14:03:10.087393",
+    "shots_per_circuit": 1000,
+    "graph": "triangle_3_qubit"
+  },
+  "results": {
+    "sweet_spot": {
+      "gamma": 0.217,
+      "beta": 1.284,
+      "mean_approx_ratio": 0.9676,
+      "std_approx_ratio": 0.0035552777669262386,
+      "mean_success_rate": 0.9676,
+      "approx_ratios": [
+        0.971,
+        0.971,
+        0.969,
+        0.965,
+        0.962
+      ]
+    },
+    "quantized": {
+      "gamma": 0.25,
+      "beta": 1.25,
+      "mean_approx_ratio": 0.9921999999999999,
+      "std_approx_ratio": 0.0016000000000000014,
+      "mean_success_rate": 0.9921999999999999,
+      "approx_ratios": [
+        0.991,
+        0.994,
+        0.99,
+        0.994,
+        0.992
+      ]
+    },
+    "theoretical": {
+      "gamma": 0.7853981633974483,
+      "beta": 0.39269908169872414,
+      "mean_approx_ratio": 0.371,
+      "std_approx_ratio": 0.015073154945133432,
+      "mean_success_rate": 0.371,
+      "approx_ratios": [
+        0.356,
+        0.365,
+        0.39,
+        0.388,
+        0.356
+      ]
+    },
+    "vermicular_v1": {
+      "gamma": 0.3,
+      "beta": 0.65,
+      "mean_approx_ratio": 0.3454,
+      "std_approx_ratio": 0.014263239463740338,
+      "mean_success_rate": 0.3454,
+      "approx_ratios": [
+        0.359,
+        0.345,
+        0.32,
+        0.344,
+        0.359
+      ]
+    },
+    "landscape_peak": {
+      "gamma": 0.317,
+      "beta": 1.151,
+      "mean_approx_ratio": 0.9616,
+      "std_approx_ratio": 0.007578918128598573,
+      "mean_success_rate": 0.9616,
+      "approx_ratios": [
+        0.965,
+        0.955,
+        0.972,
+        0.965,
+        0.951
+      ]
+    },
+    "random_1": {
+      "gamma": 2.353304971691044,
+      "beta": 2.9867570806801083,
+      "mean_approx_ratio": 0.6729999999999999,
+      "std_approx_ratio": 0.015786069808536907,
+      "mean_success_rate": 0.6729999999999999,
+      "approx_ratios": [
+        0.642,
+        0.685,
+        0.683,
+        0.678,
+        0.677
+      ]
+    },
+    "random_2": {
+      "gamma": 4.599253580133889,
+      "beta": 1.8807410959626114,
+      "mean_approx_ratio": 0.8949999999999999,
+      "std_approx_ratio": 0.004979959839195498,
+      "mean_success_rate": 0.8949999999999999,
+      "approx_ratios": [
+        0.902,
+        0.892,
+        0.891,
+        0.9,
+        0.89
+      ]
+    },
+    "random_3": {
+      "gamma": 0.980294029274052,
+      "beta": 0.49007123908847783,
+      "mean_approx_ratio": 0.5518000000000001,
+      "std_approx_ratio": 0.024227257376764687,
+      "mean_success_rate": 0.5518000000000001,
+      "approx_ratios": [
+        0.587,
+        0.563,
+        0.527,
+        0.56,
+        0.522
+      ]
+    }
+  }
+}

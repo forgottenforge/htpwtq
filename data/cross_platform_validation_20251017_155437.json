@@ -1,0 +1,24 @@
+{
+  "iqm_baseline": {
+    "platform": "IQM Emerald",
+    "approx_ratio": 0.941,
+    "success_rate": 0.941,
+    "note": "Previous result from Oct 16, 2024"
+  },
+  "rigetti_ankaa-3": {
+    "platform": "Rigetti Ankaa-3",
+    "approx_ratio": 0.71,
+    "success_rate": 0.71,
+    "shots": 100,
+    "task_id": "arn:aws:braket:us-west-1:879381261737:quantum-task/987d72d5-9280-4893-b9c2-4239e932f403",
+    "timestamp": "2025-10-17T15:45:06.531028"
+  },
+  "ionq_forte-1": {
+    "platform": "IonQ Forte-1",
+    "approx_ratio": 1.0,
+    "success_rate": 1.0,
+    "shots": 100,
+    "task_id": "arn:aws:braket:us-east-1:879381261737:quantum-task/bbf12ec3-ff0c-4652-8319-3b7819a92fc2",
+    "timestamp": "2025-10-17T15:54:37.880402"
+  }
+}

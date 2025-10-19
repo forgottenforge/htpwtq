@@ -1,0 +1,49 @@
+{
+  "platform": "simulator",
+  "timestamp": "2025-10-16T21:57:13.150986",
+  "benchmark": {
+    "Standard": {
+      "approx_ratio": 0.347,
+      "success_rate": 0.347,
+      "avg_cut": 0.694,
+      "gate_count": 15
+    },
+    "VERMICULAR v1": {
+      "approx_ratio": 0.665,
+      "success_rate": 0.665,
+      "avg_cut": 1.33,
+      "gate_count": 57
+    },
+    "VERMICULAR v2": {
+      "approx_ratio": 0.694,
+      "success_rate": 0.694,
+      "avg_cut": 1.388,
+      "gate_count": 66
+    },
+    "VERMICULAR v3": {
+      "approx_ratio": 0.701,
+      "success_rate": 0.701,
+      "avg_cut": 1.402,
+      "gate_count": 28
+    },
+    "IQM-Optimized": {
+      "approx_ratio": 0.671,
+      "success_rate": 0.671,
+      "avg_cut": 1.342,
+      "gate_count": 21
+    }
+  },
+  "optimal_parameters": {
+    "gamma": 0.31725661811355665,
+    "beta": 1.1505688048534977,
+    "max_approximation": 0.88
+  },
+  "graph_tests": {
+    "Triangle": 0.708,
+    "Square": 0.916,
+    "Diamond": 0.766,
+    "Star-3": 0.4666666666666666,
+    "Line-3": 0.485,
+    "K4": 0.6845
+  }
+}
