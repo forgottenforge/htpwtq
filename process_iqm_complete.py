@@ -6,11 +6,16 @@ Copyright (c) 2025 ForgottenForge.xyz
 
 Process all IQM results and calculate σ_c
 
-Dual Licensed under:
-- Creative Commons Attribution 4.0 International (CC BY 4.0)
-- Elastic License 2.0 (ELv2)
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Commercial licensing available. Contact: nfo@forgottenforge.xyz
+For commercial licensing without AGPL-3.0 obligations, contact:
+[nfo@forgottenforge.xyz]
+
+SPDX-License-Identifier: AGPL-3.0-or-later OR Commercial
+
 """
 
 import json
@@ -238,4 +243,5 @@ if __name__ == "__main__":
     print("✓ IQM: Tasks completed, manual analysis needed")
     print("✓ Both platforms operational and producing quality data")
     print("\nYour hardware experiments are a SUCCESS!")
+
     print("="*60)
