@@ -27,7 +27,6 @@ Domain-specific implementations:
 - Seismic: O = event clustering, Φ = spatial entropy  
 - Dynamical: O = trajectory divergence, Φ = Lyapunov exponent
 
--------------------------------------------------------------------------------
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
@@ -646,5 +645,4 @@ That's not a bug, it's a feature!
     """)
 
 if __name__ == "__main__":
-
     main()
