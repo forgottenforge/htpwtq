@@ -13,12 +13,16 @@ Key improvements:
 3. Multi-objective optimization (σ_c + performance)
 4. Safe transformations only
 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Dual Licensed under:
-- Creative Commons Attribution 4.0 International (CC BY 4.0)
-- Elastic License 2.0 (ELv2)
+For commercial licensing without AGPL-3.0 obligations, contact:
+[nfo@forgottenforge.xyz]
 
-Commercial licensing available. Contact: nfo@forgottenforge.xyz
+SPDX-License-Identifier: AGPL-3.0-or-later OR Commercial
+
 """
 
 
@@ -796,4 +800,5 @@ def demonstrate_balanced_optimization():
 
 
 if __name__ == "__main__":
+
     demonstrate_balanced_optimization()
