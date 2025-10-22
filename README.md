@@ -4,8 +4,6 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-orange)](LICENSE-COMMERCIAL.txt)
-![Status: Early Alpha](https://img.shields.io/badge/Status-Early%20Alpha-red?style=for-the-badge)
-![Status: Early Alpha](https://img.shields.io/badge/status-early--alpha-red?style=flat-square)
 ![Status: Early Alpha](https://img.shields.io/badge/status-early--alpha-red)
 
 
