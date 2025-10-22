@@ -1,7 +1,10 @@
 # Forgotten Forge - Parameter Optimization and Noise Resilience for QAOA on NISQ Devices
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-orange)](LICENSE-COMMERCIAL.txt)
+![Early Alpha](https://img.shields.io/badge/early--alpha-ff0066?style=for-the-badge&logoColor=white)
 
 
 ---
